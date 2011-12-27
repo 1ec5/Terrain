@@ -72,3 +72,22 @@
     shield-file: url('shields/US-CA-25.png');
     shield-fill: #fff;
 }
+
+#skeletron-routes[show_zoom=10][zoom=10][network="US:OH"][highway=motorway] ref,
+#skeletron-routes[show_zoom=12][zoom=12][network="US:OH"][highway!=motorway] ref
+{
+    shield-file: url('shields/US-OH-12.png');
+    shield-fill: #fff;
+    shield-size: 1;
+}
+
+#skeletron-routes[show_zoom=11][zoom=11][network="US:OH"][highway=motorway] ref,
+#skeletron-routes[show_zoom=12][zoom=12][network="US:OH"][highway=motorway] ref,
+#skeletron-routes[show_zoom=13][zoom=13][network="US:OH"] ref,
+#skeletron-routes[show_zoom=14][zoom=14][network="US:OH"] ref,
+#skeletron-routes[show_zoom=15][zoom=15][network="US:OH"] ref,
+#skeletron-routes[show_zoom=16][zoom>=16][network="US:OH"] ref
+{
+    shield-file: url('shields/US-OH-25.png');
+    shield-fill: #000;
+}
